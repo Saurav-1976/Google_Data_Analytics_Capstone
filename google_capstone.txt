@@ -1,0 +1,50 @@
+Data Source: Lyft Bikes and Scooters, LLC (“Bikeshare”)
+License: Bikeshare hereby grants to you a non-exclusive, royalty-free, limited, perpetual license to access, reproduce,
+analyze, copy, modify, distribute in your product or service and use the Data for any lawful purpose.
+Data weblink: https://divvy-tripdata.s3.amazonaws.com/index.html
+Data licence Weblink: https://www.divvybikes.com/data-license-agreement
+
+Business Task: Analyse how do annual members and casual riders use Cyclistic bikes differently? To maximizing the number of annual members.
+
+Ride Length (duration) Analysis.
+mean: 1232.143
+Median: 630
+Max: 2483235
+Min: 0
+
+[MAX]
+casual	2483235			
+member	93594			
+
+[MEAN]
+casual	1901.1018			
+member	770.2833
+
+Summary: the ride length durations of casual bikers are much larger then member bikers.
++ 2 visualizations.
+
+Original business task/question.
+
+How do annual members and casual riders use Cyclistic bikes differently?
+By analysing the average number of rides of casual vs member bikers binned by weekdays,
+the following facts are clear:
+a). member bikers use their bikes mostly to commute to work in weekdays and casual bikers use 
+bikes with low frequency in weekdays.
+b). in weekends both casual and members use bikes for relaxation or exercising purposes with equal 
+frequency. 
+
+Suggested business strategy optimization: Levy a small penalty / excess fee for weekend casual bikers, or impose
+other restrictions on casual bikers in weekends. This will free up more bikes for members and
+generate more revenue and may increase member numbers.
+
+By analysing the average trip duration of rides of casual vs member bikers binned by weekdays,
+the following facts are clear:
+a). member bikers use their bikes mostly to commute to work in weekdays and use bikes for a much
+shorter period then casual bikers.
+b). in weekends casual bikers use bikes for long durations but members use bikes for short durations.
+
+Suggested business strategy optimization: Impose a restriction on the duration of rides or casual bikers.
+This will free up more bikes for members and generate more revenue and may increase member numbers.
+
+
+
